@@ -18,3 +18,17 @@ html {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
+
+.arrow-right {
+    fill: #fff;
+}
+
+#get-started-btn:hover .arrow-right {
+    fill: black;
+}
+
+@media screen and (min-width: 1024px) {
+    .form-div {
+        border-radius: 30px;
+    }
+}

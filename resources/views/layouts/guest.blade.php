@@ -20,11 +20,9 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js', 'public/js/jquery-3.7.1.js', 'public/js/app.js'])
     </head>
-    <body>
-        <div>
-            <div>
-                {{ $slot }}
-            </div>
+    <body class="overflow-x-hidden">
+        <div class="w-screen min-h-screen overflow-x-hidden">
+            {{ $slot }}
         </div>
     </body>
 </html>
